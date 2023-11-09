@@ -1,0 +1,50 @@
+body {
+background-image: url(Mew.jpg);
+/*background-image: image-set("Mew.jpg" 1x, "Mew.jpg" 1x);*/
+background-size: cover;
+background-position: top center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+body {
+font-family: 'Forum', serif;
+}
+h1 {
+word-spacing: 30px;
+font-size: 60px;
+}
+table {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    border-spacing: 70px 10px;
+}
+h2 {
+font-size: 50px;
+border: 6px double black;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
